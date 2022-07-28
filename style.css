@@ -58,6 +58,23 @@
   height: 100%;
 }
 
+/* explore_block */
+.explore_block .card-body{
+  padding: 10px 50px;
+}
+.explore_block .card-body .card-text{
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--secondary);
+}
+.explore_block img{
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+
 @media (max-width: 992px) {
   /* navigation bar */
   .nav_wrapper .nav_tags ul {
@@ -86,6 +103,9 @@
   .popular_courses .course_subtext {
     width: auto;
   }
+
+  /* explore block */
+
 }
 
 @media (max-width: 576px) {
@@ -115,5 +135,15 @@
     width: 100%;
     height: 200px;
     object-fit: cover;
+  }
+
+  /* explore block */
+  .explore_block .card-body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .explore_block .card-body .stat div{
+    margin-right: 10px!important;
   }
 }
