@@ -50,6 +50,10 @@
 .card_block .card{
   max-width: 550px;
 }
+.card_block .card .col-md-8 {
+  display: flex;  
+  align-items: center;
+}
 .card_block .card img {
   height: 100%;
 }
