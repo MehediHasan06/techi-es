@@ -72,6 +72,20 @@
   object-fit: cover;
 }
 
+/* register_modal */
+.register_modal .modal_trigger{
+  padding: 50px 60px;
+  background: var(--primary);
+  border-radius: 10px;
+}
+.register_modal .modal_trigger button{
+  color: var(--primary);
+  background-color: #fff;
+  border: 1px solid var(--primary);
+}
+
+
+
 
 
 
@@ -105,6 +119,13 @@
   }
 
   /* explore block */
+  /* register_modal */
+  .register_modal{
+    padding: 0 10px;
+  }
+  .register_modal .modal_trigger{
+    text-align: center;
+  }
 
 }
 
