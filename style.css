@@ -130,6 +130,11 @@
     text-align: center;
   }
 
+  /* trusted_company */
+  .trusted_company{
+    display: none;
+  }
+
 }
 
 @media (max-width: 576px) {
