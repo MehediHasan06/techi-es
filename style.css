@@ -84,7 +84,10 @@
   border: 1px solid var(--primary);
 }
 
-
+/* tech_accordion */
+.tech_accordion p {
+  color: var(--secondary);
+}
 
 
 
